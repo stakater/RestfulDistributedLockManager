@@ -10,7 +10,7 @@ items:
       group: com.stakater.platform
       version: 0.5.1
       provider: stakater
-    name: app
+    name: restful-distributed-lock-manager
   spec:
     ports:
     - name: http
@@ -29,7 +29,7 @@ items:
       group: com.stakater.platform
       version: 0.5.1
       provider: stakater
-    name: ingress-monitor-controller
+    name: restful-distributed-lock-manager
   spec:
     replicas: 1
     revisionHistoryLimit: 2

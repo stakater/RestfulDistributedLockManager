@@ -6,7 +6,7 @@ metadata:
     group: com.stakater.platform
     version: 0.5.1
     provider: stakater
-  name: app
+  name: restful-distributed-lock-manager
 spec:
   ports:
   - name: http

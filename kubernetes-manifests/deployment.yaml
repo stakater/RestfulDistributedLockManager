@@ -6,7 +6,7 @@ metadata:
     group: com.stakater.platform
     version: 0.5.1
     provider: stakater
-  name: ingress-monitor-controller
+  name: restful-distributed-lock-manager
 spec:
   replicas: 1
   revisionHistoryLimit: 2
