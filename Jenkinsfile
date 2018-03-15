@@ -80,7 +80,7 @@ controllerNode(clientsImage: 'stakater/pipeline-tools:1.3.0') {
                     jx-release-version
                 """
 
-                git.commitChanges(thisRepoDir, "Bump Version")
+                git.commitChanges(thisRepoDir, "Bump Version ${version}")
 
                 print "Pushing Tag ${version} to Git"
                 sh """

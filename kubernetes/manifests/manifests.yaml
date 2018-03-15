@@ -8,7 +8,7 @@ items:
     labels:
       app: restful-distributed-lock-manager
       group: com.stakater.platform
-      version: 0.5.1
+      version: 0.5.3
       provider: stakater
     name: restful-distributed-lock-manager
   spec:
@@ -27,7 +27,7 @@ items:
     labels:
       app: restful-distributed-lock-manager
       group: com.stakater.platform
-      version: 0.5.1
+      version: 0.5.3
       provider: stakater
     name: restful-distributed-lock-manager
   spec:
@@ -38,11 +38,11 @@ items:
         labels:
           app: restful-distributed-lock-manager
           group: com.stakater.platform
-          version: 0.5.1
+          version: 0.5.3
           provider: stakater
       spec:
         containers:
-        - image: stakater/restful-distributed-lock-manager:0.5.1
+        - image: stakater/restful-distributed-lock-manager:0.5.3
           name: restful-distributed-lock-manager
           ports:
           - containerPort: 8888
